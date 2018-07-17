@@ -204,7 +204,7 @@
                 </div>
                 <div class="g-media__body g-padding-x-20--xs">
                     <h3 class="g-font-size-18--xs">Romantikus hétvége</h3>
-                    <p class="g-margin-b-0--xs">This is where we sit down, grab a cup of coffee and dial in the details.</p>
+                    <p class="g-margin-b-0--xs">Szerelmeseknek.</p>
                 </div>
             </div>
         </div>

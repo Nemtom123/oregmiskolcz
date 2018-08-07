@@ -1,0 +1,413 @@
+$font: 100% "Roboto", sans-serif;
+
+// Size
+$size-none: 0;
+$size-default: 12px;
+$size-half: 50%;
+
+// Colors
+$color-background: #fafafa;
+$color-primary: #3f51b5;
+$color-accent: #ff4081;
+$color-dark: #212121;
+$color-light: #fafaff;
+$color-none: transparent;
+
+// Buttons
+%button {
+     font: $font;
+     padding: $size-default;
+     border-radius: $size-default / 3;
+     background-color: $color-primary;
+     color: $color-light;
+     cursor: pointer;
+ }
+
+// Button Overlay
+%button-overlay {
+     position: relative;
+     overflow: hidden;
+ }
+
+// Border
+%border {
+     border-width: $size-default / 6;
+     border-style: solid;
+     border-color: $color-primary;
+ }
+
+// Text Only
+%text-only {
+     background-color: $color-none;
+     border-color: $color-none;
+     color: $color-primary;
+ }
+
+// Border Only
+%border-only {
+     background-color: $color-none;
+     color: $color-primary;
+ }
+
+// Tooltip
+%tooltip {
+     margin-left: $size-default * 2;
+     color: $color-dark;
+ }
+
+// Transition
+%transition {
+     transition-duration: 0.25s;
+     transition-timing-function: ease;
+ }
+
+// Shadow
+%shadow {
+     box-shadow: 0 3px 6px 0 rgba(13, 13, 13, 0.5);
+ }
+
+// After
+%after {
+     content: "";
+     position: absolute;
+     top: $size-half;
+     left: $size-half;
+     z-index: -1;
+     background-color: $color-primary;
+     width: $size-default * 10;
+     height: $size-default * 10;
+ }
+
+// Transforms
+@mixin transform($property) {
+    -webkit-transform: $property;
+    -ms-transform: $property;
+    transform: $property;
+}
+
+// Filter
+@mixin filter($property) {
+    -webkit-filter: $property;
+    filter: $property;
+}
+
+body {
+    font: $font;
+    background-color: $color-background;
+    margin: $size-none;
+    padding: $size-default * 10;
+}
+
+h1 {
+    font-size: $size-default * 3;
+    color: $color-dark;
+    margin-top: $size-none;
+    margin-bottom: $size-default * 3;
+span {
+    color: $color-primary;
+}
+}
+
+.tooltip {
+@extend %tooltip;
+}
+div {
+    margin-bottom: $size-default * 3;
+}
+
+button {
+@extend %button;
+@extend %border;
+@extend %transition;
+span {
+    color: $color-primary;
+}
+&.a1:hover {
+     background-color: $color-none;
+     color: $color-primary;
+ }
+&.a2:hover {
+ @extend %text-only;
+ }
+&.a3 {
+ @extend %text-only;
+&:hover {
+     background-color: $color-primary;
+     border-color: $color-primary;
+     color: $color-light;
+ }
+}
+&.b1 {
+     background-color: $color-none;
+     color: $color-primary;
+&:hover {
+     background-color: $color-primary;
+     color: $color-light;
+ }
+}
+&.b2 {
+ @extend %border-only;
+ @extend %button-overlay;
+&:after {
+ @extend %after;
+ @extend %transition;
+ @include transform(translate(-$size-half, -$size-half)scale(0));
+     border-radius: $size-half;
+ }
+&:hover:after {
+ @include transform(translate(-$size-half, -$size-half)scale(1));
+ }
+&:hover span {
+     color: $color-light;
+ }
+}
+&.b3 {
+ @extend %border-only;
+ @extend %button-overlay;
+&:after {
+ @extend %after;
+ @extend %transition;
+ @include transform(translate(-$size-half, -$size-half * 2.5));
+     width: $size-half * 3;
+ }
+&:hover:after {
+ @include transform(translate(-$size-half, -$size-half));
+ }
+&:hover span {
+     color: $color-light;
+ }
+}
+&.b4 {
+ @extend %border-only;
+ @extend %button-overlay;
+&:after {
+ @extend %after;
+ @extend %transition;
+ @include transform(translate(-$size-half, $size-half / 2));
+     width: $size-half * 3;
+ }
+&:hover:after {
+ @include transform(translate(-$size-half, -$size-half));
+ }
+&:hover span {
+     color: $color-light;
+ }
+}
+&.b5 {
+ @extend %border-only;
+ @extend %button-overlay;
+&:after {
+ @extend %after;
+ @extend %transition;
+ @include transform(translate(-$size-half * 3, -$size-half));
+     width: $size-half * 3;
+ }
+&:hover:after {
+ @include transform(translate(-$size-half, -$size-half));
+ }
+&:hover span {
+     color: $color-light;
+ }
+}
+&.b6 {
+ @extend %border-only;
+ @extend %button-overlay;
+&:after {
+ @extend %after;
+ @extend %transition;
+ @include transform(translate($size-half, -$size-half));
+     width: $size-half * 3;
+ }
+&:hover:after {
+ @include transform(translate(-$size-half, -$size-half));
+ }
+&:hover span {
+     color: $color-light;
+ }
+}
+&.c1 {
+ @extend %border-only;
+ @extend %button-overlay;
+&:after {
+ @extend %after;
+ @extend %transition;
+ @include transform(translate(-$size-half, -$size-half)scale(1));
+     border-radius: $size-half;
+ }
+&:hover:after {
+ @include transform(translate(-$size-half, -$size-half)scale(0));
+ }
+span {
+    color: $color-light;
+}
+&:hover span {
+     color: $color-primary;
+ }
+}
+&.c2 {
+ @extend %border-only;
+ @extend %button-overlay;
+&:after {
+ @extend %after;
+ @extend %transition;
+ @include transform(translate(-$size-half, -$size-half));
+     width: $size-half * 3;
+ }
+&:hover:after {
+ @include transform(translate(-$size-half, -$size-half * 2.5));
+ }
+span {
+    color: $color-light;
+}
+&:hover span {
+     color: $color-primary;
+ }
+}
+&.c3 {
+ @extend %border-only;
+ @extend %button-overlay;
+&:after {
+ @extend %after;
+ @extend %transition;
+ @include transform(translate(-$size-half, -$size-half));
+     width: $size-half * 3;
+ }
+&:hover:after {
+ @include transform(translate(-$size-half, $size-half / 2));
+ }
+span {
+    color: $color-light;
+}
+&:hover span {
+     color: $color-primary;
+ }
+}
+&.c4 {
+ @extend %border-only;
+ @extend %button-overlay;
+&:after {
+ @extend %after;
+ @extend %transition;
+ @include transform(translate(-$size-half, -$size-half));
+     width: $size-half * 3;
+ }
+&:hover:after {
+ @include transform(translate(-$size-half * 3, -$size-half));
+ }
+span {
+    color: $color-light;
+}
+&:hover span {
+     color: $color-primary;
+ }
+}
+&.c5 {
+ @extend %border-only;
+ @extend %button-overlay;
+&:after {
+ @extend %after;
+ @extend %transition;
+ @include transform(translate(-$size-half, -$size-half));
+     width: $size-half * 3;
+ }
+&:hover:after {
+ @include transform(translate($size-half, -$size-half));
+ }
+span {
+    color: $color-light;
+}
+&:hover span {
+     color: $color-primary;
+ }
+}
+&.d1:hover {
+     border-radius: $size-default;
+ }
+&.d2:hover {
+     border-radius: $size-none;
+ }
+&.d3 {
+ @extend %border-only;
+&:hover {
+     border-style: dashed;
+ }
+}
+&.d4 {
+ @extend %border-only;
+&:hover {
+     border-style: dotted;
+ }
+}
+&.e1:hover {
+     opacity: 0.5;
+ }
+&.e2:hover {
+ @include filter(grayscale(1));
+ }
+&.f1:hover {
+     background: $color-accent;
+     border-color: $color-accent;
+ }
+&.f2:hover {
+     border-color: $color-accent;
+ }
+&.f3:hover {
+     color: $color-accent;
+ }
+&.g1:hover {
+ @extend %shadow;
+ }
+&.g2:hover {
+ @include transform(translateY(-$size-default / 2));
+ @extend %shadow;
+ }
+&.g3 {
+ @extend %shadow;
+&:hover {
+     box-shadow: none;
+ }
+}
+&.h1:hover {
+ @include transform(scale(1.1));
+ }
+&.h2:hover {
+ @include transform(scale(0.9));
+ }
+&.i1:hover {
+ @include transform(translateY(-$size-default / 2));
+ }
+&.i2:hover {
+ @include transform(translateY($size-default / 2));
+ }
+&.i3:hover {
+ @include transform(translateX(-$size-default / 2));
+ }
+&.i4:hover {
+ @include transform(translateX($size-default / 2));
+ }
+&.j1:hover {
+ @include transform(rotate(6deg));
+ }
+&.j2:hover {
+ @include transform(rotate(6deg)scale(1.1));
+ }
+&.j3:hover {
+ @include transform(rotate(-6deg)scale(0.9));
+ }
+&.k1:hover {
+ @include filter(blur($size-default / 6));
+ }
+&.k2 span {
+     color: $color-light;
+ }
+&.k2:hover span {
+ @include filter(blur($size-default / 6));
+ }
+&.l1:hover {
+ @include transform(skew(-6deg));
+ }
+&.l2:hover {
+ @include transform(skew(6deg));
+ }
+}
+

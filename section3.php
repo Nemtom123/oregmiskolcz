@@ -6,6 +6,9 @@
  * Time: 21:29
  */
 ?>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <style>
     * {
         box-sizing: border-box;
@@ -166,15 +169,15 @@
                         </ol>
                         <div class="carousel-inner">
                             <div class="item active">
-                                <img src="oregmiskolc/img/940x647/bg9.JPG" title="Öreg Miskolcz Hotel & Étterem" alt="Smiley face">
+                                <img src="img/940x647/bg9.JPG" title="Öreg Miskolcz Hotel & Étterem" alt="Smiley face">
                                 <div class="carousel-caption"><p>Öreg Miskolcz Hotel & Étterem</p></div>
                             </div>
                             <div class="item">
-                                <img src="oregmiskolc/img/940x647/best-ideas-for-backyard-wedding-reception-food-photo-design-970x647.jpg" title="Öreg Miskolcz Hotel & Étterem" alt="Smiley face">
+                                <img src="img/940x647/best-ideas-for-backyard-wedding-reception-food-photo-design-970x647.jpg" title="Öreg Miskolcz Hotel & Étterem" alt="Smiley face">
                                 <div class="carousel-caption"><p>Öreg Miskolcz Hotel & Étterem</p></div>
                             </div>
                             <div class="item">
-                                <img src="oregmiskolc/img/940x647/gabf-paired-2016-46-970x647.jpg" title="Öreg Miskolcz Hotel & Étterem" alt="Smiley face">
+                                <img src="img/940x647/gabf-paired-2016-46-970x647.jpg" title="Öreg Miskolcz Hotel & Étterem" alt="Smiley face">
                                 <div class="carousel-caption"><p>Öreg Miskolcz Hotel & Étterem</p></div>
                             </div>
                         </div><!-- /.carousel-inner -->
@@ -210,15 +213,15 @@
                         </ol>
                         <div class="carousel-inner">
                             <div class="item active">
-                                <img src="oregmiskolc/img/940x647/424A0969-970x647.jpg" title="Öreg Miskolcz Hotel & Étterem" alt="Smiley face">
+                                <img src="img/940x647/424A0969-970x647.jpg" title="Öreg Miskolcz Hotel & Étterem" alt="Smiley face">
                                 <div class="carousel-caption"><p>Ebéd</p></div>
                             </div>
                             <div class="item">
-                                <img src="oregmiskolc/img/940x647/10252007_yang_ming_053_web-1-970x647.jpg" title="Öreg Miskolcz Hotel & Étterem" alt="Smiley face">
+                                <img src="img/940x647/10252007_yang_ming_053_web-1-970x647.jpg" title="Öreg Miskolcz Hotel & Étterem" alt="Smiley face">
                                 <div class="carousel-caption"><p>Öreg Miskolcz Hotel & Étterem</p></div>
                             </div>
                             <div class="item">
-                                <img src="oregmiskolc/img/940x647/041816_SMF_TalentvdToekomst_©FlorisHeuer_009_6M9A8217-970x647.jpg" title="Öreg Miskolcz Hotel & Étterem" alt="Smiley face">
+                                <img src="img/940x647/041816_SMF_TalentvdToekomst_©FlorisHeuer_009_6M9A8217-970x647.jpg" title="Öreg Miskolcz Hotel & Étterem" alt="Smiley face">
                                 <div class="carousel-caption"><p>Öreg Miskolcz Hotel & Étterem/p></div>
                             </div>
                         </div><!-- /.carousel-inner -->
@@ -254,15 +257,15 @@
                         </ol>
                         <div class="carousel-inner">
                             <div class="item active">
-                                <img src="oregmiskolc/img/940x647/cheap-wedding-buffet-menu-ideasception-for-people-food-970x647.jpg" title="Öreg Miskolcz Hotel & Étterem" alt="Smiley face">
+                                <img src="img/940x647/cheap-wedding-buffet-menu-ideasception-for-people-food-970x647.jpg" title="Öreg Miskolcz Hotel & Étterem" alt="Smiley face">
                                 <div class="carousel-caption"><p>Öreg Miskolcz Hotel & Étterem</p></div>
                             </div>
                             <div class="item">
-                                <img src="oregmiskolc/img/940x647/winter_04-970x647.jpg" title="Öreg Miskolcz Hotel & Étterem" alt="Smiley face">
+                                <img src="img/940x647/winter_04-970x647.jpg" title="Öreg Miskolcz Hotel & Étterem" alt="Smiley face">
                                 <div class="carousel-caption"><p>Öreg Miskolcz Hotel & Étterem</p></div>
                             </div>
                             <div class="item">
-                                <img src="oregmiskolc/img/940x647/Ristorante_bardelli__pavia_location-16-970x647.jpg" title="Öreg Miskolcz Hotel & Étterem" alt="Smiley face">
+                                <img src="img/940x647/Ristorante_bardelli__pavia_location-16-970x647.jpg" title="Öreg Miskolcz Hotel & Étterem" alt="Smiley face">
                                 <div class="carousel-caption"><p>Öreg Miskolcz Hotel & Étterem</p></div>
                             </div>
                         </div><!-- /.carousel-inner -->
@@ -295,15 +298,15 @@
                         </ol>
                         <div class="carousel-inner">
                             <div class="item active">
-                                <img src="oregmiskolc/img/940x647/bg9.JPG" title="Öreg Miskolcz Hotel & Étterem" alt="Smiley face">
+                                <img src="img/940x647/bg9.JPG" title="Öreg Miskolcz Hotel & Étterem" alt="Smiley face">
                                 <div class="carousel-caption"><p>Öreg Miskolcz Hotel & Étterem</p></div>
                             </div>
                             <div class="item">
-                                <img src="oregmiskolc/img/940x647/best-ideas-for-backyard-wedding-reception-food-photo-design-970x647.jpg" title="Öreg Miskolcz Hotel & Étterem" alt="Smiley face">
+                                <img src="img/940x647/best-ideas-for-backyard-wedding-reception-food-photo-design-970x647.jpg" title="Öreg Miskolcz Hotel & Étterem" alt="Smiley face">
                                 <div class="carousel-caption"><p>Öreg Miskolcz Hotel & Étterem</p></div>
                             </div>
                             <div class="item">
-                                <img src="oregmiskolc/img/940x647/gabf-paired-2016-46-970x647.jpg" title="Öreg Miskolcz Hotel & Étterem" alt="Smiley face">
+                                <img src="img/940x647/gabf-paired-2016-46-970x647.jpg" title="Öreg Miskolcz Hotel & Étterem" alt="Smiley face">
                                 <div class="carousel-caption"><p>Öreg Miskolcz Hotel & Étterem</p></div>
                             </div>
                         </div><!-- /.carousel-inner -->
@@ -337,15 +340,15 @@
                         </ol>
                         <div class="carousel-inner">
                             <div class="item active">
-                                <img src="oregmiskolc/img/940x647/424A0969-970x647.jpg" title="Öreg Miskolcz Hotel & Étterem" alt="Smiley face">
+                                <img src="img/940x647/424A0969-970x647.jpg" title="Öreg Miskolcz Hotel & Étterem" alt="Smiley face">
                                 <div class="carousel-caption"><p>Ebéd</p></div>
                             </div>
                             <div class="item">
-                                <img src="oregmiskolc/img/940x647/10252007_yang_ming_053_web-1-970x647.jpg" title="Öreg Miskolcz Hotel & Étterem" alt="Smiley face">
+                                <img src="img/940x647/10252007_yang_ming_053_web-1-970x647.jpg" title="Öreg Miskolcz Hotel & Étterem" alt="Smiley face">
                                 <div class="carousel-caption"><p>Öreg Miskolcz Hotel & Étterem</p></div>
                             </div>
                             <div class="item">
-                                <img src="oregmiskolc/img/940x647/041816_SMF_TalentvdToekomst_©FlorisHeuer_009_6M9A8217-970x647.jpg" title="Öreg Miskolcz Hotel & Étterem" alt="Smiley face">
+                                <img src="img/940x647/041816_SMF_TalentvdToekomst_©FlorisHeuer_009_6M9A8217-970x647.jpg" title="Öreg Miskolcz Hotel & Étterem" alt="Smiley face">
                                 <div class="carousel-caption"><p>Öreg Miskolcz Hotel & Étterem</p></div>
                             </div>
                         </div><!-- /.carousel-inner -->
@@ -380,15 +383,15 @@
                         </ol>
                         <div class="carousel-inner">
                             <div class="item active">
-                                <img src="oregmiskolc/img/940x647/cheap-wedding-buffet-menu-ideasception-for-people-food-970x647.jpg" title="Öreg Miskolcz Hotel & Étterem" alt="Smiley face">
+                                <img src="img/940x647/cheap-wedding-buffet-menu-ideasception-for-people-food-970x647.jpg" title="Öreg Miskolcz Hotel & Étterem" alt="Smiley face">
                                 <div class="carousel-caption"><p>Öreg Miskolcz Hotel & Étterem</p></div>
                             </div>
                             <div class="item">
-                                <img src="oregmiskolc/img/940x647/winter_04-970x647.jpg" title="Öreg Miskolcz Hotel & Étterem" alt="Smiley face">
+                                <img src="img/940x647/winter_04-970x647.jpg" title="Öreg Miskolcz Hotel & Étterem" alt="Smiley face">
                                 <div class="carousel-caption"><p>Öreg Miskolcz Hotel & Étterem</p></div>
                             </div>
                             <div class="item">
-                                <img src="oregmiskolc/img/940x647/Ristorante_bardelli__pavia_location-16-970x647.jpg" title="Öreg Miskolcz Hotel & Étterem" alt="Smiley face">
+                                <img src="img/940x647/Ristorante_bardelli__pavia_location-16-970x647.jpg" title="Öreg Miskolcz Hotel & Étterem" alt="Smiley face">
                                 <div class="carousel-caption"><p>Öreg Miskolcz Hotel & Étterem</p></div>
                             </div>
                         </div><!-- /.carousel-inner -->
@@ -421,15 +424,15 @@
                         </ol>
                         <div class="carousel-inner">
                             <div class="item active">
-                                <img src="oregmiskolc/img/940x647/bg9.JPG" title="GIPSZKARTON PROFIL" alt="Smiley face">
+                                <img src="img/940x647/bg9.JPG" title="GIPSZKARTON PROFIL" alt="Smiley face">
                                 <div class="carousel-caption"><p>Öreg Miskolcz Hotel & Étterem</p></div>
                             </div>
                             <div class="item">
-                                <img src="oregmiskolc/img/940x647/best-ideas-for-backyard-wedding-reception-food-photo-design-970x647.jpg" title="Öreg Miskolcz Hotel & Étterem" alt="Smiley face">
+                                <img src="img/940x647/best-ideas-for-backyard-wedding-reception-food-photo-design-970x647.jpg" title="Öreg Miskolcz Hotel & Étterem" alt="Smiley face">
                                 <div class="carousel-caption"><p>Öreg Miskolcz Hotel & Étterem</p></div>
                             </div>
                             <div class="item">
-                                <img src="oregmiskolc/img/940x647/gabf-paired-2016-46-970x647.jpg" title="Öreg Miskolcz Hotel & Étterem" alt="Smiley face">
+                                <img src="img/940x647/gabf-paired-2016-46-970x647.jpg" title="Öreg Miskolcz Hotel & Étterem" alt="Smiley face">
                                 <div class="carousel-caption"><p>Öreg Miskolcz Hotel & Étterem</p></div>
                             </div>
                         </div><!-- /.carousel-inner -->
@@ -465,15 +468,15 @@
                         </ol>
                         <div class="carousel-inner">
                             <div class="item active">
-                                <img src="oregmiskolc/img/940x647/424A0969-970x647.jpg" title="Öreg Miskolcz Hotel & Étterem" alt="Smiley face">
+                                <img src="img/940x647/424A0969-970x647.jpg" title="Öreg Miskolcz Hotel & Étterem" alt="Smiley face">
                                 <div class="carousel-caption"><p>Ebéd</p></div>
                             </div>
                             <div class="item">
-                                <img src="oregmiskolc/img/940x647/10252007_yang_ming_053_web-1-970x647.jpg" title="Öreg Miskolcz Hotel & Étterem" alt="Smiley face">
+                                <img src="img/940x647/10252007_yang_ming_053_web-1-970x647.jpg" title="Öreg Miskolcz Hotel & Étterem" alt="Smiley face">
                                 <div class="carousel-caption"><p>Öreg Miskolcz Hotel & Étterem</p></div>
                             </div>
                             <div class="item">
-                                <img src="oregmiskolc/img/940x647/041816_SMF_TalentvdToekomst_©FlorisHeuer_009_6M9A8217-970x647.jpg" title="Öreg Miskolcz Hotel & Étterem" alt="Smiley face">
+                                <img src="img/940x647/041816_SMF_TalentvdToekomst_©FlorisHeuer_009_6M9A8217-970x647.jpg" title="Öreg Miskolcz Hotel & Étterem" alt="Smiley face">
                                 <div class="carousel-caption"><p>Öreg Miskolcz Hotel & Étterem</p></div>
                             </div>
                         </div><!-- /.carousel-inner -->
@@ -508,15 +511,15 @@
                         </ol>
                         <div class="carousel-inner">
                             <div class="item active">
-                                <img src="oregmiskolc/img/940x647/cheap-wedding-buffet-menu-ideasception-for-people-food-970x647.jpg" title="Öreg Miskolcz Hotel & Étterem" alt="Smiley face">
+                                <img src="img/940x647/cheap-wedding-buffet-menu-ideasception-for-people-food-970x647.jpg" title="Öreg Miskolcz Hotel & Étterem" alt="Smiley face">
                                 <div class="carousel-caption"><p>Öreg Miskolcz Hotel & Étterem</p></div>
                             </div>
                             <div class="item">
-                                <img src="oregmiskolc/img/940x647/winter_04-970x647.jpg" title="Öreg Miskolcz Hotel & Étterem" alt="Smiley face">
+                                <img src="img/940x647/winter_04-970x647.jpg" title="Öreg Miskolcz Hotel & Étterem" alt="Smiley face">
                                 <div class="carousel-caption"><p>Öreg Miskolcz Hotel & Étterem</p></div>
                             </div>
                             <div class="item">
-                                <img src="oregmiskolc/img/940x647/Ristorante_bardelli__pavia_location-16-970x647.jpg" title="Öreg Miskolcz Hotel & Étterem" alt="Smiley face">
+                                <img src="img/940x647/Ristorante_bardelli__pavia_location-16-970x647.jpg" title="Öreg Miskolcz Hotel & Étterem" alt="Smiley face">
                                 <div class="carousel-caption"><p>Öreg Miskolcz Hotel & Étterem/p></div>
                             </div>
                         </div><!-- /.carousel-inner -->
@@ -549,15 +552,15 @@
                         </ol>
                         <div class="carousel-inner">
                             <div class="item active">
-                                <img src="oregmiskolc/img/940x647/bg9.JPG" title="Öreg Miskolcz Hotel & Étterem" alt="Smiley face">
+                                <img src="img/940x647/bg9.JPG" title="Öreg Miskolcz Hotel & Étterem" alt="Smiley face">
                                 <div class="carousel-caption"><p>Öreg Miskolcz Hotel & Étterem</p></div>
                             </div>
                             <div class="item">
-                                <img src="oregmiskolc/img/940x647/best-ideas-for-backyard-wedding-reception-food-photo-design-970x647.jpg" title="Öreg Miskolcz Hotel & Étterem" alt="Smiley face">
+                                <img src="img/940x647/best-ideas-for-backyard-wedding-reception-food-photo-design-970x647.jpg" title="Öreg Miskolcz Hotel & Étterem" alt="Smiley face">
                                 <div class="carousel-caption"><p>Öreg Miskolcz Hotel & Étterem</p></div>
                             </div>
                             <div class="item">
-                                <img src="oregmiskolc/img/940x647/gabf-paired-2016-46-970x647.jpg" title="Öreg Miskolcz Hotel & Étterem" alt="Smiley face">
+                                <img src="img/940x647/gabf-paired-2016-46-970x647.jpg" title="Öreg Miskolcz Hotel & Étterem" alt="Smiley face">
                                 <div class="carousel-caption"><p>Öreg Miskolcz Hotel & Étterem</p></div>
                             </div>
                         </div><!-- /.carousel-inner -->
@@ -593,15 +596,15 @@
                         </ol>
                         <div class="carousel-inner">
                             <div class="item active">
-                                <img src="oregmiskolc/img/940x647/424A0969-970x647.jpg" title="Öreg Miskolcz Hotel & Étterem" alt="Smiley face">
+                                <img src="img/940x647/424A0969-970x647.jpg" title="Öreg Miskolcz Hotel & Étterem" alt="Smiley face">
                                 <div class="carousel-caption"><p>Ebéd</p></div>
                             </div>
                             <div class="item">
-                                <img src="oregmiskolc/img/940x647/10252007_yang_ming_053_web-1-970x647.jpg" title="Öreg Miskolcz Hotel & Étterem" alt="Smiley face">
+                                <img src="img/940x647/10252007_yang_ming_053_web-1-970x647.jpg" title="Öreg Miskolcz Hotel & Étterem" alt="Smiley face">
                                 <div class="carousel-caption"><p>Felkészülés</p></div>
                             </div>
                             <div class="item">
-                                <img src="oregmiskolc/img/940x647/041816_SMF_TalentvdToekomst_©FlorisHeuer_009_6M9A8217-970x647.jpg" title="Öreg Miskolcz Hotel & Étterem" alt="Smiley face">
+                                <img src="img/940x647/041816_SMF_TalentvdToekomst_©FlorisHeuer_009_6M9A8217-970x647.jpg" title="Öreg Miskolcz Hotel & Étterem" alt="Smiley face">
                                 <div class="carousel-caption"><p>Öreg Miskolcz Hotel & Étterem</p></div>
                             </div>
                         </div><!-- /.carousel-inner -->
@@ -636,15 +639,15 @@
                         </ol>
                         <div class="carousel-inner">
                             <div class="item active">
-                                <img src="oregmiskolc/img/940x647/cheap-wedding-buffet-menu-ideasception-for-people-food-970x647.jpg" title="Öreg Miskolcz Hotel & Étterem" alt="Smiley face">
+                                <img src="img/940x647/cheap-wedding-buffet-menu-ideasception-for-people-food-970x647.jpg" title="Öreg Miskolcz Hotel & Étterem" alt="Smiley face">
                                 <div class="carousel-caption"><p>Öreg Miskolcz Hotel & Étterem</p></div>
                             </div>
                             <div class="item">
-                                <img src="oregmiskolc/img/940x647/winter_04-970x647.jpg" title="Öreg Miskolcz Hotel & Étterem" alt="Smiley face">
+                                <img src="img/940x647/winter_04-970x647.jpg" title="Öreg Miskolcz Hotel & Étterem" alt="Smiley face">
                                 <div class="carousel-caption"><p>Öreg Miskolcz Hotel & Étterem</p></div>
                             </div>
                             <div class="item">
-                                <img src="oregmiskolc/img/940x647/Ristorante_bardelli__pavia_location-16-970x647.jpg" title="Öreg Miskolcz Hotel & Étterem" alt="Smiley face">
+                                <img src="img/940x647/Ristorante_bardelli__pavia_location-16-970x647.jpg" title="Öreg Miskolcz Hotel & Étterem" alt="Smiley face">
                                 <div class="carousel-caption"><p>Öreg Miskolcz Hotel & Étterem</p></div>
                             </div>
                         </div><!-- /.carousel-inner -->
@@ -689,7 +692,7 @@
                 <div class='col-md-4 column people'>
                     <p class='animated bounceInDown slow'>
                         <div class="thumbnail animated bounceInDown slow">
-                            <img src="oregmiskolc/img/940x647/MG_0001-970x647.jpg" alt="Smiley face" height='940' width="647">
+                            <img src="img/940x647/MG_0001-970x647.jpg" alt="Smiley face" height='940' width="647">
                     <p style="text-align: center"><strong >Csirke falatok</strong></p>
                     <p style="text-align: center">Öreg Miskolcz Hotel & Étterem</p>
                     <div class="buttonHolder">
@@ -703,7 +706,7 @@
             <div class='col-md-4 column nature'>
                 <p class='animated bounceInUp slow'>
                     <div class="thumbnail animated bounceInUp slow">
-                        <img src="oregmiskolc/img/940x647/best-ideas-for-backyard-wedding-reception-food-photo-design-970x647.jpg" alt="Smiley face" height="940" width="647">
+                        <img src="img/940x647/best-ideas-for-backyard-wedding-reception-food-photo-design-970x647.jpg" alt="Smiley face" height="940" width="647">
                 <p style="text-align: center"><strong >Öreg Miskolcz Hotel & Étterem</strong></p>
                 <p style="text-align: center">Öreg Miskolcz Hotel & Étterem</p>
                 <div class="buttonHolder">
@@ -716,7 +719,7 @@
         <div class='col-md-4 column cars'>
             <p class='animated bounceInDown slow'>
                 <div class="thumbnail animated bounceInDown slow">
-                    <img src="oregmiskolc/img/940x647/IMG_8904-970x647.jpg" alt="Smiley face" height="940" width="647">
+                    <img src="img/940x647/IMG_8904-970x647.jpg" alt="Smiley face" height="940" width="647">
             <p style="text-align: center"><strong >Öreg Miskolcz Hotel & Étterem</strong></p>
             <p style="text-align: center">Öreg Miskolcz Hotel & Étterem</p>
             <div class="buttonHolder">
@@ -729,12 +732,12 @@
     <div class='col-md-4 column nature'>
         <p class='animated bounceInDown slow'>
             <div class="thumbnail animated bounceInDown slow">
-                <img src="oregmiskolc/img/940x647/041816_SMF_TalentvdToekomst_©FlorisHeuer_009_6M9A8217-970x647.jpg" alt="Smiley face" height="940" width="647">
-        <p style="text-align: center"><strong >Öreg Miskolcz Hotel & Étterem</strong></p>
-        <p style="text-align: center">Öreg Miskolcz Hotel & Étterem</p>
-        <div class="buttonHolder">
-            <button class="btn" data-toggle="modal" data-target="#myModal3" style="background-color: #aa0000; color: white">Leírás</button>
-        </div>
+                <img src="img/940x647/041816_SMF_TalentvdToekomst_©FlorisHeuer_009_6M9A8217-970x647.jpg" alt="Smiley face" height="940" width="647">
+                    <p style="text-align: center"><strong >Öreg Miskolcz Hotel & Étterem</strong></p>
+                        <p style="text-align: center">Öreg Miskolcz Hotel & Étterem</p>
+                            <div class="buttonHolder">
+                                <button class="btn" data-toggle="modal" data-target="#myModal3" style="background-color: #aa0000; color: white">Leírás</button>
+                            </div>
     </div>
     </p>
 </div>
@@ -743,7 +746,7 @@
     <div class='col-md-4 column people'>
         <p class='animated bounceInDown slow'>
             <div class="thumbnail animated bounceInDown slow">
-                <img src="oregmiskolc/img/940x647/041816_SMF_TalentvdToekomst_©FlorisHeuer_009_6M9A8217-970x647.jpg" alt="Smiley face" height="940" width="647">
+                <img src="img/940x647/041816_SMF_TalentvdToekomst_©FlorisHeuer_009_6M9A8217-970x647.jpg" alt="Smiley face" height="940" width="647">
         <p style="text-align: center"><strong >Öreg Miskolcz Hotel & Étterem</strong></p>
         <p style="text-align: center">Öreg Miskolcz Hotel & Étterem</p>
         <div class="buttonHolder">
@@ -757,7 +760,7 @@
 <div class='col-md-4 column cars'>
     <p class='animated bounceInDown slow'>
         <div class="thumbnail animated bounceInDown slow">
-            <img src="oregmiskolc/img/940x647/424A0969-970x647.jpg" alt="Smiley face" height="940" width="647">
+            <img src="img/940x647/424A0969-970x647.jpg" alt="Smiley face" height="940" width="647">
     <p style="text-align: center"><strong >Öreg Miskolcz Hotel & Étterem</strong></p>
     <p style="text-align: center">Öreg Miskolcz Hotel & Étterem</p>
     <div class="buttonHolder">
@@ -771,7 +774,7 @@
 <div class='col-md-4 column nature'>
     <p class='animated bounceInDown slow'>
         <div class="thumbnail animated bounceInDown slow">
-            <img src="oregmiskolc/img/940x647/041816_SMF_TalentvdToekomst_©FlorisHeuer_009_6M9A8217-970x647.jpg" alt="Smiley face" height="940" width="647">
+            <img src="img/940x647/041816_SMF_TalentvdToekomst_©FlorisHeuer_009_6M9A8217-970x647.jpg" alt="Smiley face" height="940" width="647">
     <p style="text-align: center"><strong >Öreg Miskolcz Hotel & Étterem</strong></p>
     <p style="text-align: center">Öreg Miskolcz Hotel & Étterem</p>
     <div class="buttonHolder">
@@ -785,7 +788,7 @@
 <div class='col-md-4 column people'>
     <p class='animated bounceInDown slow'>
         <div class="thumbnail animated bounceInDown slow">
-            <img src="oregmiskolc/img/940x647/041816_SMF_TalentvdToekomst_©FlorisHeuer_009_6M9A8217-970x647.jpg" alt="Smiley face" height="940" width="647">
+            <img src="img/940x647/041816_SMF_TalentvdToekomst_©FlorisHeuer_009_6M9A8217-970x647.jpg" alt="Smiley face" height="940" width="647">
     <p style="text-align: center"><strong >Öreg Miskolcz Hotel & Étterem</strong></p>
     <p style="text-align: center">Öreg Miskolcz Hotel & Étterem</p>
     <div class="buttonHolder">
@@ -799,7 +802,7 @@
 <div class='col-md-4 column cars'>
     <p class='animated bounceInDown slow'>
         <div class="thumbnail animated bounceInDown slow">
-            <img src="oregmiskolc/img/940x647/424A0969-970x647.jpg" alt="Smiley face" height="940" width="647">
+            <img src="img/940x647/424A0969-970x647.jpg" alt="Smiley face" height="940" width="647">
     <p style="text-align: center"><strong >Öreg Miskolcz Hotel & Étterem</strong></p>
     <p style="text-align: center">Öreg Miskolcz Hotel & Étterem</p>
     <div class="buttonHolder">
@@ -813,7 +816,7 @@
 <div class='col-md-4 column nature'>
     <p class='animated bounceInDown slow'>
         <div class="thumbnail animated bounceInDown slow">
-            <img src="oregmiskolc/img/940x647/041816_SMF_TalentvdToekomst_©FlorisHeuer_009_6M9A8217-970x647.jpg" alt="Smiley face" height="940" width="647">
+            <img src="img/940x647/041816_SMF_TalentvdToekomst_©FlorisHeuer_009_6M9A8217-970x647.jpg" alt="Smiley face" height="940" width="647">
     <p style="text-align: center"><strong >Öreg Miskolcz Hotel & Étterem</strong></p>
     <p style="text-align: center">Öreg Miskolcz Hotel & Étterem</p>
     <div class="buttonHolder">
@@ -827,7 +830,7 @@
 <div class='col-md-4 column people'>
     <p class='animated bounceInDown slow'>
         <div class="thumbnail animated bounceInDown slow">
-            <img src="oregmiskolc/img/940x647/041816_SMF_TalentvdToekomst_©FlorisHeuer_009_6M9A8217-970x647.jpg" alt="Smiley face" height="940" width="647">
+            <img src="img/940x647/041816_SMF_TalentvdToekomst_©FlorisHeuer_009_6M9A8217-970x647.jpg" alt="Smiley face" height="940" width="647">
     <p style="text-align: center"><strong >Öreg Miskolcz Hotel & Étterem</strong></p>
     <p style="text-align: center">Gipszkartonozás</p>
     <div class="buttonHolder">
@@ -841,7 +844,7 @@
 <div class='col-md-4 column cars'>
     <p class='animated bounceInDown slow'>
         <div class="thumbnail animated bounceInDown slow">
-            <img src="oregmiskolc/img/940x647/424A0969-970x647.jpg" alt="Smiley face" height="940" width="647">
+            <img src="img/940x647/424A0969-970x647.jpg" alt="Smiley face" height="940" width="647">
     <p style="text-align: center"><strong >Öreg Miskolcz Hotel & Étterem</strong></p>
     <p style="text-align: center">Öreg Miskolcz Hotel & Étterem</p>
     <div class="buttonHolder">
@@ -855,7 +858,7 @@
 <div class='col-md-4 column nature'>
     <p class='animated bounceInDown slow'>
         <div class="thumbnail animated bounceInDown slow">
-            <img src="oregmiskolc/img/940x647/041816_SMF_TalentvdToekomst_©FlorisHeuer_009_6M9A8217-970x647.jpg" alt="Smiley face" height="940" width="647">
+            <img src="img/940x647/041816_SMF_TalentvdToekomst_©FlorisHeuer_009_6M9A8217-970x647.jpg" alt="Smiley face" height="940" width="647">
     <p style="text-align: center"><strong >Öreg Miskolcz Hotel & Étterem</strong></p>
     <p style="text-align: center">Öreg Miskolcz Hotel & Étterem</p>
     <div class="buttonHolder">
@@ -869,7 +872,7 @@
 <div class='col-md-4 column people'>
     <p class='animated bounceInDown slow'>
         <div class="thumbnail animated bounceInDown slow">
-            <img src="oregmiskolc/img/940x647/041816_SMF_TalentvdToekomst_©FlorisHeuer_009_6M9A8217-970x647.jpg" alt="Smiley face" height="940" width="647">
+            <img src="img/940x647/041816_SMF_TalentvdToekomst_©FlorisHeuer_009_6M9A8217-970x647.jpg" alt="Smiley face" height="940" width="647">
     <p style="text-align: center"><strong >Öreg Miskolcz Hotel & Étterem</strong></p>
     <p style="text-align: center">Öreg Miskolcz Hotel & Étterem</p>
     <div class="buttonHolder">
@@ -883,7 +886,7 @@
 <div class='col-md-4 column cars'>
     <p class='animated bounceInDown slow'>
         <div class="thumbnail animated bounceInDown slow">
-            <img src="oregmiskolc/img/940x647/424A0969-970x647.jpg" alt="Smiley face" height="940" width="647">
+            <img src="img/940x647/424A0969-970x647.jpg" alt="Smiley face" height="940" width="647">
     <p style="text-align: center"><strong >Öreg Miskolcz Hotel & Étterem</strong></p>
     <p style="text-align: center">Öreg Miskolcz Hotel & Étterem</p>
     <div class="buttonHolder">
@@ -945,6 +948,7 @@
         });
     }
 </script>
+<div class="clearfix">
 <!-- End Portfolio -->
 
 </div>

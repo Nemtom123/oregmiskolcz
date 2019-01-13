@@ -2,47 +2,113 @@
 /**
  * Created by PhpStorm.
  * User: dobia
- * Date: 2018.08.02.
- * Time: 20:47
+ * Date: 2018.12.28.
+ * Time: 0:01
  */
 ?>
-<div data-spy="scroll" data-target="#scroll-spy">
-    <section id="about">
-        <!-- box0 -->
-        <div id="box1" class="home">
+<body id="top" data-spy="scroll" style="color: #a6926d">
+<header id="home" class="block block-header">
+    <section class="top-nav hidden-xs">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="top-left">
 
-            <div class="text-vcenter">
-                <h3><u class="box1">___Öreg Miskolcz___</u></h3>
-                <h4><u class="box1">Hotel & Étterem</u></h4>
-                <p class="box2" align="ceneter"><select>
-                        <option>HU</option>
-                        <option>EN</option>
-                        <option>DE</option>
-                    </select></p>
+                        <ul>
+                            <li><i><a href="#" class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                            <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                            <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                            <li><a href="#"><i class="fa fa-vk" aria-hidden="true"></i></a></li>
+                            <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                        </ul>
 
+                    </div>
+                </div>
+                <div class="col-md-4 main-logo">
+                    <img src="img/1.png" alt="" class="desktop1">
+                </div>
+
+                <div class="col-md-4">
+                    <div class="top-right">
+                        <p><span>Miskolc </span></p>
+                    </div>
+                </div>
 
             </div>
         </div>
+        <hr>
+        <table style="width:100% ; margin-top: 0; text-align: center">
+            <tbody class="table" style="color: #a6926d">
+            <tr>
+                <td style="border-right-color: #ffffff; border-right-width:thin; border-right-style:solid">
+                </td>
+                <td >
+                    <p style="margin-top: 5px; margin-left: -22px;" class="glyphicon glyphicon-envelope"> oregmiskolc@oregmiskolc.hu
+                </td>
+                <td style="border-right-color: #ffffff; border-right-width:thin; border-right-style:solid">
+                </td>
+                <td>
+                    <p style="margin-top: 5px;" class="glyphicon glyphicon-phone-alt"> 06709675586
+                </td>
+                <td style="border-right-color: #ffffff; border-right-width:thin; border-right-style:solid">
+                </td>
+                <td align="center" style="min-width: 199px; margin-top: 5px"></td>
+                <td>
+                    <img style="margin-top: 2px" src="img/3.png">&nbsp;
+                </td>
+                <td style="border-right-color: #ffffff; border-right-width: thin;
+                   border-right-style:solid">
+                </td>
+                <td>
+                    <img style="margin-top: 2px" src="img/4.png">&nbsp;
+                </td>
+                <td style="border-right-color: #ffffff; border-right-width: thin;
+                   border-right-style:solid">
+                </td>
+                <td>
+                    <img style="margin-top: 2px" src="img/5.png">&nbsp;
+                </td>
+                <td>
+                    &nbsp;&nbsp;&nbsp;
+                </td>
 
+            </tr>
+            <!--   <tr>
+                   <td colspan="16"><img class="main-logo"
+                               style="text-align: center;vertical-align: middle;" src="img/1.png" href="#logo"/></td>
+               </tr> -->
+            </tbody>
+        </table>
+    </section>
 
-        <!-- /box1 -->
+    <!--main-nav-->
 
-        <!-- navbar -->
-        <nav class="navbar navbar-default " role="navigation" style="background-color: white">
-            <div class="container-fluid">
+    <div id="main-nav">
+
+        <nav class="navbar" id="return-fel">
+            <div class="container">
+
                 <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse"
-                            data-target="#navbar-collapse-main"><span
-                            class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span
-                            class="icon-bar"></span> <span class="icon-bar"></span></button>
-                    <a class="navbar-brand" href="#"></a></div>
-                <div class="collapse navbar-collapse" id="navbar-collapse-main">
-                    <ul class="nav navbar-nav navbar-left">
-                        <li style="background-color: white"><a href="#about" id="darkgoldmenu1"  style="color: darkgoldenrod">ŐregMiskolcz</a></li>
+                    <a href="index.php"  class="menu-btn button visible-md visible-xs" data-toggle="offcanvas"></a>
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#ftheme">
+                        <span class="sr-only">Toggle</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
 
-                        <li style="background-color: white" class="dropdown"><a href="#" id="darkgoldmenu2" class="dropdown-toggle" data-toggle="dropdown"  style="color: darkgoldenrod">Szolgáltatásunk</a>
+                <div class="navbar-collapse collapse" id="ftheme">
+
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#home">home</a></li>
+                        <li><a href="#about">szobáink</a></li>
+                        <li><a href="#reserved" >foglalás</a></li>
+                        <li class="dropdown">
+                            <a href="#"  class="dropdown-toggle" data-toggle="dropdown"
+                               style="color: darkgoldenrod">Szolgáltatásunk</a>
                             <ul id="products-menu" class="dropdown-menu clearfix" role="menu">
-                                <li><a href="#section1" id="darkgoldmenu3">Romantikus hétvége</a></li>
+                                <li><a href="#service" id="darkgoldmenu3">Romantikus hétvége</a></li>
                                 <li><a href="" id="darkgoldmenu4">Esküvők</a></li>
                                 <li><a href="" id="darkgoldmenu5">Rendezvények</a></li>
                                 <li><a href="" id="darkgoldmenu6">Aktív pihenés</a></li>
@@ -54,101 +120,32 @@
                                 <li><a href="" id="darkgoldmenu12">Nyugdíjas búcsúztató</a></li>
                             </ul>
                         </li>
-                        <li style="background-color: white"><a href="#section2" id="darkgoldmenu13" style="color: darkgoldenrod">Foglalás</a></li>
-                        <li style="background-color: white" class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" id="darkgoldmenu14" style="color: darkgoldenrod">Étterem</a>
+                        <li style="background-color: white" class="dropdown">
+                            <a href="#" id="darkgoldmenu2" class="dropdown-toggle" data-toggle="dropdown"
+                               style="color: darkgoldenrod">Étterem</a>
                             <ul id="products-menu" class="dropdown-menu clearfix" role="menu">
-                                <li><a href="#section3" id="darkgoldmenu15">Heti Menü</a></li>
-                                <li><a href="#section31" id="darkgoldmenu16">Különleges ajánlatunk</a></li>
-                                <li><a href="" id="darkgoldmenu17">Séf ajánlás</a></li>
-                                <li><a href="" id="darkgoldmenu18">Étlap</a></li>
+                                <li><a href="#section" id="darkgoldmenu15">Heti Menü</a></li>
+                                <li><a href="#section" id="darkgoldmenu16">Különleges ajánlatunk</a></li>
+                                <li><a href="#section" id="darkgoldmenu17">Séf ajánlás</a></li>
+                                <li><a href="#menu" id="darkgoldmenu18">Étlap</a></li>
                             </ul>
                         </li>
-                        <li style="background-color: white"><a href="#section4" id="darkgoldmenu19" style="color: darkgoldenrod">Ajánlataink</a></li>
-                        <li style="background-color: white"><a href="#section5" id="darkgoldmenu20" style="color: darkgoldenrod">Wellness
-                            </a></li>
-                        <li style="background-color: white"><a href="#section6" id="darkgoldmenu21" style="color: darkgoldenrod">Kontakt</a>
+                        <li><a href="#contact">Kontakt</a></li>
+                        <li class="hidden-sm hidden-xs">
+                            <a href="#" id="ss"><i class="fa fa-search" aria-hidden="true"></i></a>
                         </li>
-                        <li style="background-color: white"><a href="#section7" id="darkgoldmenu22" style="color: darkgoldenrod">Térkép
-                            </a></li>
                     </ul>
+
                 </div>
+
+                <div class="search-form">
+                    <form>
+                        <input type="text" id="s" size="40" placeholder="Search..."/>
+                    </form>
+                </div>
+
             </div>
         </nav>
-        </nav>
-        <!-- /navbar -->
-        <!-- MyCarusel-->
-        <div id="myCarousel" class="carousel slide" data-ride="carousel">
-            <!-- Indicators -->
-            <ol class="carousel-indicators">
-                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                <li data-target="#myCarousel" data-slide-to="1"></li>
-                <li data-target="#myCarousel" data-slide-to="2"></li>
-            </ol>
+    </div>
+</header>
 
-            <!-- Wrapper for slides -->
-            <div class="carousel-inner">
-                <div class="item active">
-                    <img src="oregmiskolc/img/1%20(2).jpg" alt="" style="width:100%" class="img-responsiv">
-                    <div class="carousel-caption">
-                        <a href="https://www.google.co.uk/" target="_blank">
-                            <button type="button" class="btn btn-default">Read More</button>
-                        </a>
-                        <h2 style="text-align: center">Öreg Miskolcz Hotel & Étterem Miskolc</h2>
-                        <p>Öreg Miskolcz Hotel & Étterem Miskolc</p>
-                        <h2>
-                            <p class="text-uppercase g-font-size-36--xs g-color--white g-letter-spacing--3 g-margin-b-0--xs">
-                                Tudj meg többet róllunk</p>
-                            <a href="javascript:void(0);" class="s-header__trigger js__trigger">
-                                <span class="g-font-size-26--xs g-color--white ti-arrow-circle-down"></span>
-                            </a>
-                        </h2>
-                    </div>
-                </div>
-                <div class="item">
-                    <img src="oregmiskolc/img/2%20(2).jpg" alt="" style="width:100%;">
-                    <div class="carousel-caption">
-                        <h3>Öreg Miskolcz Hotel & Étterem Miskolc</h3>
-                        <p>Öreg Miskolcz Hotel & Étterem Miskolc</p>
-                        <h2>
-                            <p class="text-uppercase g-font-size-36--xs g-color--white g-letter-spacing--3 g-margin-b-0--xs">
-                                Tudj meg többet róllunk</p>
-                            <a href="#js__scroll-to-section" class="s-scroll-to-section-v1--bc g-margin-b-15--xs">
-                                <span class="g-font-size-26--xs g-color--white ti-arrow-circle-down"></span>
-                            </a>
-                        </h2>
-                    </div>
-                </div>
-
-                <div class="item">
-                    <img src="oregmiskolc/img/3%20(2).jpg" alt="" style="width:100%;">
-                    <div class="carousel-caption">
-                        <h3>Öreg Miskolcz Hotel & Étterem Miskolc</h3>
-                        <p>Öreg Miskolcz Hotel & Étterem Miskolc</p>
-                        <h2>
-                            <p class="text-uppercase g-font-size-26--xs g-color--white g-letter-spacing--3 g-margin-b-0--xs">
-                                Tudj meg többet róllunk</p>
-                            <a href="#js__scroll-to-section" class="s-scroll-to-section-v1--bc g-margin-b-15--xs">
-                                <span class="g-font-size-26--xs g-color--white ti-arrow-circle-down"></span>
-                            </a>
-                        </h2>
-                    </div>
-
-                </div>
-            </div>
-
-            <!-- Left and right controls -->
-            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-                <span class="glyphicon glyphicon-chevron-left"></span>
-                <span class="sr-only">Previous</span>
-            </a>
-            <a class="right carousel-control" href="#myCarousel" data-slide="next">
-                <span class="glyphicon glyphicon-chevron-right"></span>
-                <span class="sr-only">Next</span>
-            </a>
-        </div>
-    </section>
-    <!-- /MyCarusel-->
-
-    <div class="clearfix"></div>
-    <br><br><br>
-</div>

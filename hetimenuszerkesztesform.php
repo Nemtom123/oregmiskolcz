@@ -4,9 +4,9 @@ print "<option value='".$hetimenu['id']."' >".$hetimenu['napok']."</option>";
 ?>
 <form name="rogzit" method="post" class="ajax">
 
-	<div class="container" style="background-color: white">
+	<div class="container" style="background-color: white; overflow: scroll" >
 		<div class="row clearfix">
-			<div class="col-md-12 col-lg-12 column">
+			<div class="col-md-12 col-lg-12">
 				<table class="table alert-dark" >
 					<thead>
 					<tr>
@@ -24,7 +24,7 @@ print "<option value='".$hetimenu['id']."' >".$hetimenu['napok']."</option>";
 					<tbody>
 					<tr>
 						<td>
-							<label><input name="id[<?php echo $hetimenu['id'] ?>]" value="<?php echo $hetimenu['id'] ?>"></label>
+							<label><input name="id[<?php echo $hetimenu['id'] ?>]" value="<?php echo $hetimenu['id'] ?>"disabled></label>
 						</td>
 						<td>
 							<label><input name="napok[<?php echo $hetimenu['id'] ?>]" value="<?php echo $hetimenu['napok'] ?>"></label>
